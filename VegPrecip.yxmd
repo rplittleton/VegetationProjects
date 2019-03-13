@@ -1,0 +1,814 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.2">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">\\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>VegetationPrecipitation.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StateCode" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="Division" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="YearMonth" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="PCP" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="TAVG" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="PDSI" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="PHDI" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="ZNDX" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="PMDI" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="CDD" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="HDD" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="SP01" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="SP02" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="SP03" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="SP06" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="SP09" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="SP12" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="SP24" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="TMIN" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="TMAX" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="NVDI" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="YEAR_" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="MONTH_" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="DATE_" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="222" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RPLITT~1\AppData\Local\Temp\Engine_3836_30cb818904d947cc8dccab4420768ffd_\Engine_6808_3af1f2b68d674bc69b254e592fc7f690_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="186" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="StateCode" selected="True" />
+            <Field field="Division" selected="True" />
+            <Field field="YearMonth" selected="True" />
+            <Field field="PCP" selected="True" />
+            <Field field="TAVG" selected="True" />
+            <Field field="PDSI" selected="True" />
+            <Field field="PHDI" selected="True" />
+            <Field field="ZNDX" selected="True" />
+            <Field field="PMDI" selected="True" />
+            <Field field="CDD" selected="True" />
+            <Field field="HDD" selected="True" />
+            <Field field="SP01" selected="True" />
+            <Field field="SP02" selected="True" />
+            <Field field="SP03" selected="True" />
+            <Field field="SP06" selected="True" />
+            <Field field="SP09" selected="True" />
+            <Field field="SP12" selected="True" />
+            <Field field="SP24" selected="True" />
+            <Field field="TMIN" selected="True" />
+            <Field field="TMAX" selected="True" />
+            <Field field="NVDI" selected="True" />
+            <Field field="YEAR_" selected="True" />
+            <Field field="MONTH_" selected="True" />
+            <Field field="DATE_" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StateCode" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Byte" />
+            <Field name="Division" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Byte" />
+            <Field name="YearMonth" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Int32" />
+            <Field name="PCP" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Double" />
+            <Field name="TAVG" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Double" />
+            <Field name="PDSI" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Double" />
+            <Field name="PHDI" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Double" />
+            <Field name="ZNDX" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Double" />
+            <Field name="PMDI" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Double" />
+            <Field name="CDD" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Int16" />
+            <Field name="HDD" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Int16" />
+            <Field name="SP01" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Double" />
+            <Field name="SP02" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Double" />
+            <Field name="SP03" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Double" />
+            <Field name="SP06" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Double" />
+            <Field name="SP09" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Double" />
+            <Field name="SP12" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Double" />
+            <Field name="SP24" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Double" />
+            <Field name="TMIN" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Double" />
+            <Field name="TMAX" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Double" />
+            <Field name="NVDI" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Double" />
+            <Field name="YEAR_" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Int16" />
+            <Field name="MONTH_" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Byte" />
+            <Field name="DATE_" size="9" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings>
+        <Position x="294" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="x var">HDD</Value>
+          <Value name="y var">PCP</Value>
+          <Value name="y binary">False</Value>
+          <Value name="y level" />
+          <Value name="reg line">True</Value>
+          <Value name="smooth line">True</Value>
+          <Value name="smooth span">50</Value>
+          <Value name="spread">True</Value>
+          <Value name="boxplots">True</Value>
+          <Value name="jitter x">False</Value>
+          <Value name="jitter y">False</Value>
+          <Value name="log x">False</Value>
+          <Value name="log y">False</Value>
+          <Value name="groups">False</Value>
+          <Value name="group var">DATE_</Value>
+          <Value name="group lines">False</Value>
+          <Value name="default">True</Value>
+          <Value name="topleft">False</Value>
+          <Value name="topright">False</Value>
+          <Value name="bottomleft">False</Value>
+          <Value name="bottomright">False</Value>
+          <Value name="x label" />
+          <Value name="y label" />
+          <Value name="pointsize">10</Value>
+          <Value name="point size">1.0</Value>
+          <Value name="axis text size">1.2</Value>
+          <Value name="axis label size">1.3</Value>
+          <Value name="title size">1.4</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Scatterplot.yxmc" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="438" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RPLITT~1\AppData\Local\Temp\Engine_3836_30cb818904d947cc8dccab4420768ffd_\Engine_6808_cd63dd65362b4ac997002d0852ba19a6_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings>
+        <Position x="270" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="select.x">NVDI</Value>
+          <Value name="select.y">Division</Value>
+          <Value name="bandwidth">Auto</Value>
+          <Value name="grid.points">35</Value>
+          <Value name="plot.title">Heat Plot</Value>
+          <Value name="horizontal.field" />
+          <Value name="vertical.field" />
+          <Value name="col.func">cm.colors</Value>
+          <Value name="nlevels">100</Value>
+          <Value name="ordered.categories">False</Value>
+          <Value name="x.labels" />
+          <Value name="y.labels" />
+          <Value name="plot.key">False</Value>
+          <Value name="key.title">Density</Value>
+          <Value name="key.labels" />
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Heat_Plot.yxmc" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RPLITT~1\AppData\Local\Temp\Engine_3836_30cb818904d947cc8dccab4420768ffd_\Engine_6808_34bb64f9b019465298b028e137536fb6_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings>
+        <Position x="246" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="x var">TAVG</Value>
+          <Value name="y var">HDD</Value>
+          <Value name="y binary">False</Value>
+          <Value name="y level" />
+          <Value name="reg line">True</Value>
+          <Value name="smooth line">True</Value>
+          <Value name="smooth span">50</Value>
+          <Value name="spread">True</Value>
+          <Value name="boxplots">True</Value>
+          <Value name="jitter x">False</Value>
+          <Value name="jitter y">False</Value>
+          <Value name="log x">False</Value>
+          <Value name="log y">False</Value>
+          <Value name="groups">False</Value>
+          <Value name="group var">DATE_</Value>
+          <Value name="group lines">False</Value>
+          <Value name="default">True</Value>
+          <Value name="topleft">False</Value>
+          <Value name="topright">False</Value>
+          <Value name="bottomleft">False</Value>
+          <Value name="bottomright">False</Value>
+          <Value name="x label" />
+          <Value name="y label" />
+          <Value name="pointsize">10</Value>
+          <Value name="point size">1.0</Value>
+          <Value name="axis text size">1.2</Value>
+          <Value name="axis label size">1.3</Value>
+          <Value name="title size">1.4</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Scatterplot.yxmc" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="342" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RPLITT~1\AppData\Local\Temp\Engine_3836_30cb818904d947cc8dccab4420768ffd_\Engine_6808_44420a895e5a4d79b17cc0e5af6751ad_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings>
+        <Position x="294" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="x var">TMIN</Value>
+          <Value name="y var">TMAX</Value>
+          <Value name="y binary">False</Value>
+          <Value name="y level" />
+          <Value name="reg line">True</Value>
+          <Value name="smooth line">True</Value>
+          <Value name="smooth span">50</Value>
+          <Value name="spread">True</Value>
+          <Value name="boxplots">True</Value>
+          <Value name="jitter x">False</Value>
+          <Value name="jitter y">False</Value>
+          <Value name="log x">False</Value>
+          <Value name="log y">False</Value>
+          <Value name="groups">False</Value>
+          <Value name="group var">DATE_</Value>
+          <Value name="group lines">False</Value>
+          <Value name="default">True</Value>
+          <Value name="topleft">False</Value>
+          <Value name="topright">False</Value>
+          <Value name="bottomleft">False</Value>
+          <Value name="bottomright">False</Value>
+          <Value name="x label" />
+          <Value name="y label" />
+          <Value name="pointsize">10</Value>
+          <Value name="point size">1.0</Value>
+          <Value name="axis text size">1.2</Value>
+          <Value name="axis label size">1.3</Value>
+          <Value name="title size">1.4</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Scatterplot.yxmc" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="402" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RPLITT~1\AppData\Local\Temp\Engine_3836_30cb818904d947cc8dccab4420768ffd_\Engine_6808_f12de758d9684c798c0f7d5299345320_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings>
+        <Position x="270" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="x var">HDD</Value>
+          <Value name="y var">NVDI</Value>
+          <Value name="y binary">False</Value>
+          <Value name="y level" />
+          <Value name="reg line">True</Value>
+          <Value name="smooth line">True</Value>
+          <Value name="smooth span">50</Value>
+          <Value name="spread">True</Value>
+          <Value name="boxplots">True</Value>
+          <Value name="jitter x">False</Value>
+          <Value name="jitter y">False</Value>
+          <Value name="log x">False</Value>
+          <Value name="log y">False</Value>
+          <Value name="groups">False</Value>
+          <Value name="group var">DATE_</Value>
+          <Value name="group lines">False</Value>
+          <Value name="default">True</Value>
+          <Value name="topleft">False</Value>
+          <Value name="topright">False</Value>
+          <Value name="bottomleft">False</Value>
+          <Value name="bottomright">False</Value>
+          <Value name="x label" />
+          <Value name="y label" />
+          <Value name="pointsize">10</Value>
+          <Value name="point size">1.0</Value>
+          <Value name="axis text size">1.2</Value>
+          <Value name="axis label size">1.3</Value>
+          <Value name="title size">1.4</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Scatterplot.yxmc" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="414" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RPLITT~1\AppData\Local\Temp\Engine_3836_30cb818904d947cc8dccab4420768ffd_\Engine_6808_8f9440f0b8914f8491c5fcea644f1fd9_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings>
+        <Position x="438" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="x var">TMAX</Value>
+          <Value name="y var">NVDI</Value>
+          <Value name="y binary">False</Value>
+          <Value name="y level" />
+          <Value name="reg line">True</Value>
+          <Value name="smooth line">True</Value>
+          <Value name="smooth span">50</Value>
+          <Value name="spread">True</Value>
+          <Value name="boxplots">True</Value>
+          <Value name="jitter x">False</Value>
+          <Value name="jitter y">False</Value>
+          <Value name="log x">False</Value>
+          <Value name="log y">False</Value>
+          <Value name="groups">False</Value>
+          <Value name="group var">DATE_</Value>
+          <Value name="group lines">False</Value>
+          <Value name="default">True</Value>
+          <Value name="topleft">False</Value>
+          <Value name="topright">False</Value>
+          <Value name="bottomleft">False</Value>
+          <Value name="bottomright">False</Value>
+          <Value name="x label" />
+          <Value name="y label" />
+          <Value name="pointsize">10</Value>
+          <Value name="point size">1.0</Value>
+          <Value name="axis text size">1.2</Value>
+          <Value name="axis label size">1.3</Value>
+          <Value name="title size">1.4</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Scatterplot.yxmc" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="570" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RPLITT~1\AppData\Local\Temp\Engine_3836_30cb818904d947cc8dccab4420768ffd_\Engine_6808_acf59f5d0c164eab986f23190b7b5275_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings>
+        <Position x="294" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">StateCode=False,Division=False,YearMonth=False,PCP=True,TAVG=True,PDSI=True,PHDI=False,ZNDX=False,PMDI=False,CDD=True,HDD=True,SP01=False,SP02=False,SP03=False,SP06=False,SP09=False,SP12=False,SP24=False,TMIN=True,TMAX=False,NVDI=True,YEAR_=False,MONTH_=False,DATE_=False</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="366" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RPLITT~1\AppData\Local\Temp\Engine_3836_30cb818904d947cc8dccab4420768ffd_\Engine_6808_a2d97847dfcf4c0cb5cf14b6c67afbae_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="426" y="-6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RPLITT~1\AppData\Local\Temp\Engine_3836_30cb818904d947cc8dccab4420768ffd_\Engine_6808_6ef4cad54eeb4390b40038167ac26f6f_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="26" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="33" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="35" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="37" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="39" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="41" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Scater Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Scater Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Scater Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Scater Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Scater Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Interactive" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>VegPrecip</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

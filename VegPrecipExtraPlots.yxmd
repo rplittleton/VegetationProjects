@@ -1,0 +1,1128 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.2">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">\\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>VegetationPrecipitation.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StateCode" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="Division" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="YearMonth" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="PCP" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="TAVG" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="PDSI" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="PHDI" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="ZNDX" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="PMDI" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="CDD" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="HDD" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="SP01" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="SP02" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="SP03" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="SP06" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="SP09" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="SP12" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="SP24" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="TMIN" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="TMAX" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="NVDI" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="YEAR_" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="MONTH_" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="DATE_" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="126" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="StateCode" selected="True" />
+            <Field field="Division" selected="False" />
+            <Field field="YearMonth" selected="True" />
+            <Field field="PCP" selected="True" />
+            <Field field="TAVG" selected="True" />
+            <Field field="PDSI" selected="True" />
+            <Field field="PHDI" selected="True" />
+            <Field field="ZNDX" selected="True" />
+            <Field field="PMDI" selected="True" />
+            <Field field="CDD" selected="True" />
+            <Field field="HDD" selected="True" />
+            <Field field="SP01" selected="True" />
+            <Field field="SP02" selected="True" />
+            <Field field="SP03" selected="True" />
+            <Field field="SP06" selected="True" />
+            <Field field="SP09" selected="True" />
+            <Field field="SP12" selected="True" />
+            <Field field="SP24" selected="True" />
+            <Field field="TMIN" selected="True" />
+            <Field field="TMAX" selected="True" />
+            <Field field="NVDI" selected="True" />
+            <Field field="YEAR_" selected="True" />
+            <Field field="MONTH_" selected="True" />
+            <Field field="DATE_" selected="False" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StateCode" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Byte" />
+            <Field name="Division" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+            <Field name="YearMonth" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Int32" />
+            <Field name="PCP" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Double" />
+            <Field name="TAVG" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Double" />
+            <Field name="PDSI" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Double" />
+            <Field name="PHDI" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Double" />
+            <Field name="ZNDX" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Double" />
+            <Field name="PMDI" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Double" />
+            <Field name="CDD" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Int16" />
+            <Field name="HDD" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Int16" />
+            <Field name="SP01" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Double" />
+            <Field name="SP02" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Double" />
+            <Field name="SP03" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Double" />
+            <Field name="SP06" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Double" />
+            <Field name="SP09" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Double" />
+            <Field name="SP12" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Double" />
+            <Field name="SP24" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Double" />
+            <Field name="TMIN" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Double" />
+            <Field name="TMAX" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Double" />
+            <Field name="NVDI" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Double" />
+            <Field name="YEAR_" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Int16" />
+            <Field name="MONTH_" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="Byte" />
+            <Field name="DATE_" size="254" source="File: \\VBOXSVR\VM_Share\NVDI\VegetationPrecipitation.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="186" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>DATE_</InputFieldName>
+          <Format>MM/dd/yyyy</Format>
+          <OutputFieldName>DateTime_Out</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert DATE_ From:
+MM/dd/yyyy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxReportChartGui.AlteryxReportChartGui">
+        <Position x="186" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ChartType>Line</ChartType>
+          <GroupingFields orderChanged="False" />
+          <LabelField>DateTime_String</LabelField>
+          <GeneralStyles ThreeDInterior="false" GradientColoring="false" ChartSizeW="432" ChartSizeH="288" Resolution="2x (192 dpi)" ChartTitle="NVDI &amp; PCP Over Time" ChartTitleSize="14" ChartSubTitle="" ChartSubTitleSize="12" ChartPrimaryFont="Microsoft Sans Serif" />
+          <TitleStyles ChangeTitleFont="false" ChartTitleFont="Microsoft Sans Serif" ChartTitleSize="14" ChartTitleColor="#000000" ChartTitleAlignment="Center" ChangeSubTitleFont="false" ChartSubTitleFont="Microsoft Sans Serif" ChartSubTitleSize="12" ChartSubTitleColor="#000000" SubTitleAlignment="Center" ChangeLegendTextFont="false" LegendTextFont="Microsoft Sans Serif" LegendTextSize="12" LegendTextColor="#000000" />
+          <Styles UseChartBorder="false" ChartBorderWidth="2" ChartBorderColor="#000000" UseAreaBorder="false" AreaBorderWidth="2" AreaBorderColor="#000000" ChartBGColor="#ffffff" ChartAreaBGColor="#ffffff" ChartInteriorBGColor="#ffffff" />
+          <ChartTypeStyles ShowChartLegend="true" LegendSeparateImage="false" LegendPosition="Top" LegendAlignment="Center" UseLegendBorder="false" LegendBorderWidth="2" LegendBorderColor="#000000" TransposeData="Record" ShowDataPointText="false" DataPointFontFaceName="Microsoft Sans Serif" DataPointFontSize="8" DataPointTextColor="#000000" DataPointTextOffset="2" DataPointUsePrePostfix="false" DataPointOverrideDecimalPlaces="false" DataPointNumDecimalPlaces="0" SeriesPalette="#b30023,#00488c,#1e6c0b,#d84000,#f0b400,#332600,#5400a8,#434c43" SeriesBorderWidth="2" ShowSeriesDots="false" SeriesDotSize="6" />
+          <YAxis YAxisLabelFont="Microsoft Sans Serif" YAxisLabelSize="8" YAxisLabelColor="#000000" YAxisTitle="PCP" YAxisTitleFont="Microsoft Sans Serif" YAxisTitleSize="10" YAxisTitleColor="#000000" YAxisShowGrid="true" YPrefix="" YPostfix="" YAxisOverrideIncrement="false" YAxisIncrement="20" YAxisOverrideBaseline="false" YAxisBaseline="0" YAxisOverrideTopline="false" YAxisTopline="1000" UseYAxisHiliteline="false" YAxisHiliteValue="0" YAxisHiliteColor="#000000" YAxisOverrideDecimalPlaces="false" YAxisNumDecimalPlaces="0" />
+          <OAxis UseOpposedAxis="true" OAxisLabelFont="Microsoft Sans Serif" OAxisLabelSize="8" OAxisLabelColor="#000000" OAxisTitle="NVDI" OAxisTitleFont="Microsoft Sans Serif" OAxisTitleSize="10" OAxisTitleColor="#000000" OAxisShowGrid="true" OPrefix="" OPostfix="" OAxisOverrideOrigin="false" OAxisCustomOrigin="0" OAxisOverrideIncrement="false" OAxisIncrement="10" OAxisOverrideBaseline="false" OAxisBaseline="0" OAxisOverrideTopline="false" OAxisTopline="1000" UseOAxisHiliteline="false" OAxisHiliteValue="0" OAxisHiliteColor="#000000" OAxisOverrideDecimalPlaces="false" OAxisNumDecimalPlaces="0" />
+          <XAxis XAxisLabelFont="Microsoft Sans Serif" XAxisLabelSize="3" XAxisLabelColor="#000000" XAxisTitle="Date" XAxisTitleFont="Microsoft Sans Serif" XAxisTitleSize="8" XAxisTitleColor="#000000" XAxisShowGrid="true" />
+          <StylesSeries1 ShowDataPointText="false" DataPointFontFaceName="Microsoft Sans Serif" DataPointFontSize="8" DataPointTextColor="#000000" DataPointTextOffset="2" DataPointUsePrePostfix="false" DataPointOverrideDecimalPlaces="false" DataPointNumDecimalPlaces="0" SeriesColor="#b30023" SeriesPalette="#b30023,#00488c,#1e6c0b,#d84000,#f0b400,#332600,#5400a8,#434c43" SeriesBorderWidth="2" ShowSeriesDots="false" SeriesDotSize="1" PlotOnOpposedAxis="false" />
+          <StylesSeries2 ShowDataPointText="false" DataPointFontFaceName="Microsoft Sans Serif" DataPointFontSize="8" DataPointTextColor="#000000" DataPointTextOffset="2" DataPointUsePrePostfix="false" DataPointOverrideDecimalPlaces="false" DataPointNumDecimalPlaces="0" SeriesColor="#00488c" SeriesPalette="#b30023,#00488c,#1e6c0b,#d84000,#f0b400,#332600,#5400a8,#434c43" SeriesBorderWidth="2" ShowSeriesDots="false" SeriesDotSize="6" PlotOnOpposedAxis="true" />
+          <StylesSeries3 ShowDataPointText="false" DataPointFontFaceName="Microsoft Sans Serif" DataPointFontSize="8" DataPointTextColor="#000000" DataPointTextOffset="2" DataPointUsePrePostfix="false" DataPointOverrideDecimalPlaces="false" DataPointNumDecimalPlaces="0" SeriesColor="#1e6c0b" SeriesPalette="#b30023,#00488c,#1e6c0b,#d84000,#f0b400,#332600,#5400a8,#434c43" SeriesBorderWidth="2" ShowSeriesDots="true" SeriesDotSize="6" PlotOnOpposedAxis="false" />
+          <StylesSeries4 ShowDataPointText="false" DataPointFontFaceName="Microsoft Sans Serif" DataPointFontSize="8" DataPointTextColor="#000000" DataPointTextOffset="2" DataPointUsePrePostfix="false" DataPointOverrideDecimalPlaces="false" DataPointNumDecimalPlaces="0" SeriesColor="#d84000" SeriesPalette="#b30023,#00488c,#1e6c0b,#d84000,#f0b400,#332600,#5400a8,#434c43" SeriesBorderWidth="2" ShowSeriesDots="true" SeriesDotSize="6" PlotOnOpposedAxis="false" />
+          <StylesSeries5 ShowDataPointText="false" DataPointFontFaceName="Microsoft Sans Serif" DataPointFontSize="8" DataPointTextColor="#000000" DataPointTextOffset="2" DataPointUsePrePostfix="false" DataPointOverrideDecimalPlaces="false" DataPointNumDecimalPlaces="0" SeriesColor="#f0b400" SeriesPalette="#b30023,#00488c,#1e6c0b,#d84000,#f0b400,#332600,#5400a8,#434c43" SeriesBorderWidth="2" ShowSeriesDots="true" SeriesDotSize="6" PlotOnOpposedAxis="false" />
+          <StylesSeries6 ShowDataPointText="false" DataPointFontFaceName="Microsoft Sans Serif" DataPointFontSize="8" DataPointTextColor="#000000" DataPointTextOffset="2" DataPointUsePrePostfix="false" DataPointOverrideDecimalPlaces="false" DataPointNumDecimalPlaces="0" SeriesColor="#332600" SeriesPalette="#b30023,#00488c,#1e6c0b,#d84000,#f0b400,#332600,#5400a8,#434c43" SeriesBorderWidth="2" ShowSeriesDots="true" SeriesDotSize="6" PlotOnOpposedAxis="false" />
+          <StylesSeries7 ShowDataPointText="false" DataPointFontFaceName="Microsoft Sans Serif" DataPointFontSize="8" DataPointTextColor="#000000" DataPointTextOffset="2" DataPointUsePrePostfix="false" DataPointOverrideDecimalPlaces="false" DataPointNumDecimalPlaces="0" SeriesColor="#5400a8" SeriesPalette="#b30023,#00488c,#1e6c0b,#d84000,#f0b400,#332600,#5400a8,#434c43" SeriesBorderWidth="2" ShowSeriesDots="true" SeriesDotSize="6" PlotOnOpposedAxis="false" />
+          <StylesSeries8 ShowDataPointText="false" DataPointFontFaceName="Microsoft Sans Serif" DataPointFontSize="8" DataPointTextColor="#000000" DataPointTextOffset="2" DataPointUsePrePostfix="false" DataPointOverrideDecimalPlaces="false" DataPointNumDecimalPlaces="0" SeriesColor="#434c43" SeriesPalette="#b30023,#00488c,#1e6c0b,#d84000,#f0b400,#332600,#5400a8,#434c43" SeriesBorderWidth="2" ShowSeriesDots="true" SeriesDotSize="6" PlotOnOpposedAxis="false" />
+          <StylesSeries9 ShowDataPointText="false" DataPointFontFaceName="Microsoft Sans Serif" DataPointFontSize="8" DataPointTextColor="#000000" DataPointTextOffset="2" DataPointUsePrePostfix="false" DataPointOverrideDecimalPlaces="false" DataPointNumDecimalPlaces="0" SeriesColor="#b30023" SeriesPalette="#b30023,#00488c,#1e6c0b,#d84000,#f0b400,#332600,#5400a8,#434c43" SeriesBorderWidth="2" ShowSeriesDots="true" SeriesDotSize="6" PlotOnOpposedAxis="false" />
+          <StylesSeries10 ShowDataPointText="false" DataPointFontFaceName="Microsoft Sans Serif" DataPointFontSize="8" DataPointTextColor="#000000" DataPointTextOffset="2" DataPointUsePrePostfix="false" DataPointOverrideDecimalPlaces="false" DataPointNumDecimalPlaces="0" SeriesColor="#00488c" SeriesPalette="#b30023,#00488c,#1e6c0b,#d84000,#f0b400,#332600,#5400a8,#434c43" SeriesBorderWidth="2" ShowSeriesDots="true" SeriesDotSize="6" PlotOnOpposedAxis="false" />
+          <StylesSeries11 ShowDataPointText="false" DataPointFontFaceName="Microsoft Sans Serif" DataPointFontSize="8" DataPointTextColor="#000000" DataPointTextOffset="2" DataPointUsePrePostfix="false" DataPointOverrideDecimalPlaces="false" DataPointNumDecimalPlaces="0" SeriesColor="#1e6c0b" SeriesPalette="#b30023,#00488c,#1e6c0b,#d84000,#f0b400,#332600,#5400a8,#434c43" SeriesBorderWidth="2" ShowSeriesDots="true" SeriesDotSize="6" PlotOnOpposedAxis="false" />
+          <StylesSeries12 ShowDataPointText="false" DataPointFontFaceName="Microsoft Sans Serif" DataPointFontSize="8" DataPointTextColor="#000000" DataPointTextOffset="2" DataPointUsePrePostfix="false" DataPointOverrideDecimalPlaces="false" DataPointNumDecimalPlaces="0" SeriesColor="#d84000" SeriesPalette="#b30023,#00488c,#1e6c0b,#d84000,#f0b400,#332600,#5400a8,#434c43" SeriesBorderWidth="2" ShowSeriesDots="true" SeriesDotSize="6" PlotOnOpposedAxis="false" />
+          <StylesSeries13 ShowDataPointText="false" DataPointFontFaceName="Microsoft Sans Serif" DataPointFontSize="8" DataPointTextColor="#000000" DataPointTextOffset="2" DataPointUsePrePostfix="false" DataPointOverrideDecimalPlaces="false" DataPointNumDecimalPlaces="0" SeriesColor="#f0b400" SeriesPalette="#b30023,#00488c,#1e6c0b,#d84000,#f0b400,#332600,#5400a8,#434c43" SeriesBorderWidth="2" ShowSeriesDots="true" SeriesDotSize="6" PlotOnOpposedAxis="false" />
+          <StylesSeries14 ShowDataPointText="false" DataPointFontFaceName="Microsoft Sans Serif" DataPointFontSize="8" DataPointTextColor="#000000" DataPointTextOffset="2" DataPointUsePrePostfix="false" DataPointOverrideDecimalPlaces="false" DataPointNumDecimalPlaces="0" SeriesColor="#332600" SeriesPalette="#b30023,#00488c,#1e6c0b,#d84000,#f0b400,#332600,#5400a8,#434c43" SeriesBorderWidth="2" ShowSeriesDots="true" SeriesDotSize="6" PlotOnOpposedAxis="false" />
+          <StylesSeries15 ShowDataPointText="false" DataPointFontFaceName="Microsoft Sans Serif" DataPointFontSize="8" DataPointTextColor="#000000" DataPointTextOffset="2" DataPointUsePrePostfix="false" DataPointOverrideDecimalPlaces="false" DataPointNumDecimalPlaces="0" SeriesColor="#5400a8" SeriesPalette="#b30023,#00488c,#1e6c0b,#d84000,#f0b400,#332600,#5400a8,#434c43" SeriesBorderWidth="2" ShowSeriesDots="true" SeriesDotSize="6" PlotOnOpposedAxis="false" />
+          <StylesSeries16 ShowDataPointText="false" DataPointFontFaceName="Microsoft Sans Serif" DataPointFontSize="8" DataPointTextColor="#000000" DataPointTextOffset="2" DataPointUsePrePostfix="false" DataPointOverrideDecimalPlaces="false" DataPointNumDecimalPlaces="0" SeriesColor="#434c43" SeriesPalette="#b30023,#00488c,#1e6c0b,#d84000,#f0b400,#332600,#5400a8,#434c43" SeriesBorderWidth="2" ShowSeriesDots="true" SeriesDotSize="6" PlotOnOpposedAxis="false" />
+          <StylesSeries17 ShowDataPointText="false" DataPointFontFaceName="Microsoft Sans Serif" DataPointFontSize="8" DataPointTextColor="#000000" DataPointTextOffset="2" DataPointUsePrePostfix="false" DataPointOverrideDecimalPlaces="false" DataPointNumDecimalPlaces="0" SeriesColor="#b30023" SeriesPalette="#b30023,#00488c,#1e6c0b,#d84000,#f0b400,#332600,#5400a8,#434c43" SeriesBorderWidth="2" ShowSeriesDots="true" SeriesDotSize="6" PlotOnOpposedAxis="false" />
+          <StylesSeries18 ShowDataPointText="false" DataPointFontFaceName="Microsoft Sans Serif" DataPointFontSize="8" DataPointTextColor="#000000" DataPointTextOffset="2" DataPointUsePrePostfix="false" DataPointOverrideDecimalPlaces="false" DataPointNumDecimalPlaces="0" SeriesColor="#00488c" SeriesPalette="#b30023,#00488c,#1e6c0b,#d84000,#f0b400,#332600,#5400a8,#434c43" SeriesBorderWidth="2" ShowSeriesDots="true" SeriesDotSize="6" PlotOnOpposedAxis="false" />
+          <StylesSeries19 ShowDataPointText="false" DataPointFontFaceName="Microsoft Sans Serif" DataPointFontSize="8" DataPointTextColor="#000000" DataPointTextOffset="2" DataPointUsePrePostfix="false" DataPointOverrideDecimalPlaces="false" DataPointNumDecimalPlaces="0" SeriesColor="#1e6c0b" SeriesPalette="#b30023,#00488c,#1e6c0b,#d84000,#f0b400,#332600,#5400a8,#434c43" SeriesBorderWidth="2" ShowSeriesDots="true" SeriesDotSize="6" PlotOnOpposedAxis="false" />
+          <StylesSeries20 ShowDataPointText="false" DataPointFontFaceName="Microsoft Sans Serif" DataPointFontSize="8" DataPointTextColor="#000000" DataPointTextOffset="2" DataPointUsePrePostfix="false" DataPointOverrideDecimalPlaces="false" DataPointNumDecimalPlaces="0" SeriesColor="#d84000" SeriesPalette="#b30023,#00488c,#1e6c0b,#d84000,#f0b400,#332600,#5400a8,#434c43" SeriesBorderWidth="2" ShowSeriesDots="true" SeriesDotSize="6" PlotOnOpposedAxis="false" />
+          <StylesSeries21 ShowDataPointText="false" DataPointFontFaceName="Microsoft Sans Serif" DataPointFontSize="8" DataPointTextColor="#000000" DataPointTextOffset="2" DataPointUsePrePostfix="false" DataPointOverrideDecimalPlaces="false" DataPointNumDecimalPlaces="0" SeriesColor="#f0b400" SeriesPalette="#b30023,#00488c,#1e6c0b,#d84000,#f0b400,#332600,#5400a8,#434c43" SeriesBorderWidth="2" ShowSeriesDots="true" SeriesDotSize="6" PlotOnOpposedAxis="false" />
+          <StylesSeries22 ShowDataPointText="false" DataPointFontFaceName="Microsoft Sans Serif" DataPointFontSize="8" DataPointTextColor="#000000" DataPointTextOffset="2" DataPointUsePrePostfix="false" DataPointOverrideDecimalPlaces="false" DataPointNumDecimalPlaces="0" SeriesColor="#332600" SeriesPalette="#b30023,#00488c,#1e6c0b,#d84000,#f0b400,#332600,#5400a8,#434c43" SeriesBorderWidth="2" ShowSeriesDots="true" SeriesDotSize="6" PlotOnOpposedAxis="false" />
+          <StylesSeries23 ShowDataPointText="false" DataPointFontFaceName="Microsoft Sans Serif" DataPointFontSize="8" DataPointTextColor="#000000" DataPointTextOffset="2" DataPointUsePrePostfix="false" DataPointOverrideDecimalPlaces="false" DataPointNumDecimalPlaces="0" SeriesColor="#5400a8" SeriesPalette="#b30023,#00488c,#1e6c0b,#d84000,#f0b400,#332600,#5400a8,#434c43" SeriesBorderWidth="2" ShowSeriesDots="true" SeriesDotSize="6" PlotOnOpposedAxis="false" />
+          <StylesSeries24 ShowDataPointText="false" DataPointFontFaceName="Microsoft Sans Serif" DataPointFontSize="8" DataPointTextColor="#000000" DataPointTextOffset="2" DataPointUsePrePostfix="false" DataPointOverrideDecimalPlaces="false" DataPointNumDecimalPlaces="0" SeriesColor="#b30023" SeriesPalette="#b30023,#00488c,#1e6c0b,#d84000,#f0b400,#332600,#5400a8,#434c43" SeriesBorderWidth="2" ShowSeriesDots="true" SeriesDotSize="6" PlotOnOpposedAxis="false" />
+          <StylesSeries25 ShowDataPointText="false" DataPointFontFaceName="Microsoft Sans Serif" DataPointFontSize="8" DataPointTextColor="#000000" DataPointTextOffset="2" DataPointUsePrePostfix="false" DataPointOverrideDecimalPlaces="false" DataPointNumDecimalPlaces="0" SeriesColor="#00488c" SeriesPalette="#b30023,#00488c,#1e6c0b,#d84000,#f0b400,#332600,#5400a8,#434c43" SeriesBorderWidth="2" ShowSeriesDots="true" SeriesDotSize="6" PlotOnOpposedAxis="false" />
+          <WatermarkStyles UseWatermark="None" WatermarkText="Property of Alteryx, Inc." WatermarkTextFont="Microsoft Sans Serif" WatermarkTextSize="14" WatermarkTextColor="#000000" WatermarkOpacity="60" WatermarkImage="" />
+          <AllowMultiple value="true" />
+          <CombinationChart value="false" />
+          <SeriesList numSeries="25">
+            <Series1>
+              <Y_ValueField yValueName="LineValue" yValueDesc="Line">PCP</Y_ValueField>
+            </Series1>
+            <Series2>
+              <Y_ValueField yValueName="LineValue" yValueDesc="Line">NVDI</Y_ValueField>
+            </Series2>
+            <Series3>
+              <Y_ValueField yValueName="LineValue" yValueDesc="Line">[None]</Y_ValueField>
+            </Series3>
+            <Series4>
+              <Y_ValueField yValueName="LineValue" yValueDesc="Line">[None]</Y_ValueField>
+            </Series4>
+            <Series5>
+              <Y_ValueField yValueName="LineValue" yValueDesc="Line">[None]</Y_ValueField>
+            </Series5>
+            <Series6>
+              <Y_ValueField yValueName="LineValue" yValueDesc="Line">[None]</Y_ValueField>
+            </Series6>
+            <Series7>
+              <Y_ValueField yValueName="LineValue" yValueDesc="Line">[None]</Y_ValueField>
+            </Series7>
+            <Series8>
+              <Y_ValueField yValueName="LineValue" yValueDesc="Line">[None]</Y_ValueField>
+            </Series8>
+            <Series9>
+              <Y_ValueField yValueName="LineValue" yValueDesc="Line">[None]</Y_ValueField>
+            </Series9>
+            <Series10>
+              <Y_ValueField yValueName="LineValue" yValueDesc="Line">[None]</Y_ValueField>
+            </Series10>
+            <Series11>
+              <Y_ValueField yValueName="LineValue" yValueDesc="Line">[None]</Y_ValueField>
+            </Series11>
+            <Series12>
+              <Y_ValueField yValueName="LineValue" yValueDesc="Line">[None]</Y_ValueField>
+            </Series12>
+            <Series13>
+              <Y_ValueField yValueName="LineValue" yValueDesc="Line">[None]</Y_ValueField>
+            </Series13>
+            <Series14>
+              <Y_ValueField yValueName="LineValue" yValueDesc="Line">[None]</Y_ValueField>
+            </Series14>
+            <Series15>
+              <Y_ValueField yValueName="LineValue" yValueDesc="Line">[None]</Y_ValueField>
+            </Series15>
+            <Series16>
+              <Y_ValueField yValueName="LineValue" yValueDesc="Line">[None]</Y_ValueField>
+            </Series16>
+            <Series17>
+              <Y_ValueField yValueName="LineValue" yValueDesc="Line">[None]</Y_ValueField>
+            </Series17>
+            <Series18>
+              <Y_ValueField yValueName="LineValue" yValueDesc="Line">[None]</Y_ValueField>
+            </Series18>
+            <Series19>
+              <Y_ValueField yValueName="LineValue" yValueDesc="Line">[None]</Y_ValueField>
+            </Series19>
+            <Series20>
+              <Y_ValueField yValueName="LineValue" yValueDesc="Line">[None]</Y_ValueField>
+            </Series20>
+            <Series21>
+              <Y_ValueField yValueName="LineValue" yValueDesc="Line">[None]</Y_ValueField>
+            </Series21>
+            <Series22>
+              <Y_ValueField yValueName="LineValue" yValueDesc="Line">[None]</Y_ValueField>
+            </Series22>
+            <Series23>
+              <Y_ValueField yValueName="LineValue" yValueDesc="Line">[None]</Y_ValueField>
+            </Series23>
+            <Series24>
+              <Y_ValueField yValueName="LineValue" yValueDesc="Line">[None]</Y_ValueField>
+            </Series24>
+            <Series25>
+              <Y_ValueField yValueName="LineValue" yValueDesc="Line">[None]</Y_ValueField>
+            </Series25>
+          </SeriesList>
+          <CurrentKnownFields>
+            <Field name="StateCode" />
+            <Field name="YearMonth" />
+            <Field name="PCP" />
+            <Field name="TAVG" />
+            <Field name="PDSI" />
+            <Field name="PHDI" />
+            <Field name="ZNDX" />
+            <Field name="PMDI" />
+            <Field name="CDD" />
+            <Field name="HDD" />
+            <Field name="SP01" />
+            <Field name="SP02" />
+            <Field name="SP03" />
+            <Field name="SP06" />
+            <Field name="SP09" />
+            <Field name="SP12" />
+            <Field name="SP24" />
+            <Field name="TMIN" />
+            <Field name="TMAX" />
+            <Field name="NVDI" />
+            <Field name="YEAR_" />
+            <Field name="MONTH_" />
+          </CurrentKnownFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxReportChart.dll" EngineDllEntryPoint="AlteryxReportChartPlugin" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="294" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RPLITT~1\AppData\Local\Temp\Engine_1048_1d3f4e483a6440ddb1c5a03ab1d462a7_\Engine_6808_a60d089d923f4ba49a967cff22c6bf68_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>TB</ViewMode>
+            <ViewSize value="63" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints />
+            </View2>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings>
+        <Position x="318" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="target_field">NVDI</Value>
+          <Value name="freq_hourly">False</Value>
+          <Value name="freq_daily">False</Value>
+          <Value name="freq_weekdays">False</Value>
+          <Value name="freq_weekly">False</Value>
+          <Value name="freq_monthly">True</Value>
+          <Value name="freq_quarterly">False</Value>
+          <Value name="freq_annually">False</Value>
+          <Value name="freq_other">False</Value>
+          <Value name="series_start">False</Value>
+          <Value name="start_year">2012</Value>
+          <Value name="start_month_qtr">1</Value>
+          <Value name="ts_plot">True</Value>
+          <Value name="seas_plot">False</Value>
+          <Value name="seas_dev_plot">False</Value>
+          <Value name="acf_plot">False</Value>
+          <Value name="pacf_plot">False</Value>
+          <Value name="decomp_plot">False</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\TS_Plot.yxmc" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="402" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RPLITT~1\AppData\Local\Temp\Engine_1048_1d3f4e483a6440ddb1c5a03ab1d462a7_\Engine_6808_75611969352440d2a25ee4ca6071b2bb_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="414" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RPLITT~1\AppData\Local\Temp\Engine_1048_1d3f4e483a6440ddb1c5a03ab1d462a7_\Engine_6808_193cb50b654d45ec9752ee64012d2007_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings>
+        <Position x="318" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="target_field">PCP</Value>
+          <Value name="freq_hourly">False</Value>
+          <Value name="freq_daily">False</Value>
+          <Value name="freq_weekdays">False</Value>
+          <Value name="freq_weekly">False</Value>
+          <Value name="freq_monthly">True</Value>
+          <Value name="freq_quarterly">False</Value>
+          <Value name="freq_annually">False</Value>
+          <Value name="freq_other">False</Value>
+          <Value name="series_start">False</Value>
+          <Value name="start_year">2012</Value>
+          <Value name="start_month_qtr">1</Value>
+          <Value name="ts_plot">True</Value>
+          <Value name="seas_plot">False</Value>
+          <Value name="seas_dev_plot">False</Value>
+          <Value name="acf_plot">False</Value>
+          <Value name="pacf_plot">False</Value>
+          <Value name="decomp_plot">False</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\TS_Plot.yxmc" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="414" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RPLITT~1\AppData\Local\Temp\Engine_1048_1d3f4e483a6440ddb1c5a03ab1d462a7_\Engine_6808_3973696437e7444e94fdcbb6822560ee_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="414" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RPLITT~1\AppData\Local\Temp\Engine_1048_1d3f4e483a6440ddb1c5a03ab1d462a7_\Engine_6808_7cb9b163a61e4e9687234945b6e60c82_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings>
+        <Position x="606" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="field">NVDI</Value>
+          <Value name="group">True</Value>
+          <Value name="group var">Division</Value>
+          <Value name="plot.title" />
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">3x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Violin_Plot.yxmc" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="726" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RPLITT~1\AppData\Local\Temp\Engine_1048_1d3f4e483a6440ddb1c5a03ab1d462a7_\Engine_6808_59668fa98ed64cb1bc1fe6eaaff10a58_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings>
+        <Position x="522" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="response">NVDI</Value>
+          <Value name="binary">False</Value>
+          <Value name="target" />
+          <Value name="group var">Division</Value>
+          <Value name="se">True</Value>
+          <Value name="sd">False</Value>
+          <Value name="ci">False</Value>
+          <Value name="conf">95</Value>
+          <Value name="none">False</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Plot_of_Means.yxmc" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings>
+        <Position x="534" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="x var">NVDI</Value>
+          <Value name="y var">Division</Value>
+          <Value name="y binary">False</Value>
+          <Value name="y level" />
+          <Value name="reg line">True</Value>
+          <Value name="smooth line">True</Value>
+          <Value name="smooth span">50</Value>
+          <Value name="spread">True</Value>
+          <Value name="boxplots">True</Value>
+          <Value name="jitter x">False</Value>
+          <Value name="jitter y">False</Value>
+          <Value name="log x">False</Value>
+          <Value name="log y">False</Value>
+          <Value name="groups">False</Value>
+          <Value name="group var">Division</Value>
+          <Value name="group lines">False</Value>
+          <Value name="default">True</Value>
+          <Value name="topleft">False</Value>
+          <Value name="topright">False</Value>
+          <Value name="bottomleft">False</Value>
+          <Value name="bottomright">False</Value>
+          <Value name="x label" />
+          <Value name="y label" />
+          <Value name="pointsize">10</Value>
+          <Value name="point size">1.0</Value>
+          <Value name="axis text size">1.2</Value>
+          <Value name="axis label size">1.3</Value>
+          <Value name="title size">1.4</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Scatterplot.yxmc" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="606" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RPLITT~1\AppData\Local\Temp\Engine_1048_1d3f4e483a6440ddb1c5a03ab1d462a7_\Engine_6808_9690481d8e594467906257be8879044d_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="606" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RPLITT~1\AppData\Local\Temp\Engine_1048_1d3f4e483a6440ddb1c5a03ab1d462a7_\Engine_6808_d0e1f1415ecc4d798cfa36d72f8e1938_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings>
+        <Position x="726" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="field">NVDI</Value>
+          <Value name="breaks">auto</Value>
+          <Value name="density">True</Value>
+          <Value name="scale">1.0</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Histogram.yxmc" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="798" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RPLITT~1\AppData\Local\Temp\Engine_1048_1d3f4e483a6440ddb1c5a03ab1d462a7_\Engine_6808_3b8e386220af463da46a7bc5f876747d_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="126" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="True" />
+          <InputFieldName>DateTime_Out</InputFieldName>
+          <Format />
+          <OutputFieldName>DateTime_String</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert DateTime_Out To:
+Custom</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="438" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Division" order="Ascending" />
+            <Field field="DateTime_Out" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Division - Ascending
+DateTime_Out - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings>
+        <Position x="570" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="do target">False</Value>
+          <Value name="target">StateCode</Value>
+          <Value name="target level" />
+          <Value name="use fields">"PCP","TAVG","CDD","HDD","NVDI"</Value>
+          <Value name="Pearson">True</Value>
+          <Value name="Spearman">False</Value>
+          <Value name="Hoeffding">False</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Association_Analysis.yxmc" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="654" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RPLITT~1\AppData\Local\Temp\Engine_1048_1d3f4e483a6440ddb1c5a03ab1d462a7_\Engine_6808_5dfa7d4e398c4049be1eaaa6b2e91801_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="642" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RPLITT~1\AppData\Local\Temp\Engine_1048_1d3f4e483a6440ddb1c5a03ab1d462a7_\Engine_6808_eab1982551be4e5ba74e6314ba0835b9_.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxReportChartGui.AlteryxReportChartGui">
+        <Position x="186" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ChartType>Line</ChartType>
+          <GroupingFields orderChanged="False">
+            <Field name="Division" />
+          </GroupingFields>
+          <LabelField>DateTime_String</LabelField>
+          <GeneralStyles ThreeDInterior="false" GradientColoring="false" ChartSizeW="432" ChartSizeH="288" Resolution="1x (96 dpi)" ChartTitle="" ChartTitleSize="14" ChartSubTitle="" ChartSubTitleSize="12" ChartPrimaryFont="Microsoft Sans Serif" />
+          <TitleStyles ChangeTitleFont="false" ChartTitleFont="Microsoft Sans Serif" ChartTitleSize="14" ChartTitleColor="#000000" ChartTitleAlignment="Center" ChangeSubTitleFont="false" ChartSubTitleFont="Microsoft Sans Serif" ChartSubTitleSize="12" ChartSubTitleColor="#000000" SubTitleAlignment="Center" ChangeLegendTextFont="false" LegendTextFont="Microsoft Sans Serif" LegendTextSize="12" LegendTextColor="#000000" />
+          <Styles UseChartBorder="false" ChartBorderWidth="2" ChartBorderColor="#000000" UseAreaBorder="false" AreaBorderWidth="2" AreaBorderColor="#000000" ChartBGColor="#ffffff" ChartAreaBGColor="#ffffff" ChartInteriorBGColor="#ffffff" />
+          <ChartTypeStyles ShowChartLegend="true" LegendSeparateImage="false" LegendPosition="Top" LegendAlignment="Center" UseLegendBorder="false" LegendBorderWidth="2" LegendBorderColor="#000000" TransposeData="Record" ShowDataPointText="false" DataPointFontFaceName="Microsoft Sans Serif" DataPointFontSize="8" DataPointTextColor="#000000" DataPointTextOffset="2" DataPointUsePrePostfix="false" DataPointOverrideDecimalPlaces="false" DataPointNumDecimalPlaces="0" SeriesPalette="#b30023,#00488c,#1e6c0b,#d84000,#f0b400,#332600,#5400a8,#434c43" SeriesBorderWidth="2" ShowSeriesDots="true" SeriesDotSize="6" />
+          <YAxis YAxisLabelFont="Microsoft Sans Serif" YAxisLabelSize="8" YAxisLabelColor="#000000" YAxisTitle="" YAxisTitleFont="Microsoft Sans Serif" YAxisTitleSize="10" YAxisTitleColor="#000000" YAxisShowGrid="true" YPrefix="" YPostfix="" YAxisOverrideIncrement="false" YAxisIncrement="100" YAxisOverrideBaseline="false" YAxisBaseline="0" YAxisOverrideTopline="false" YAxisTopline="1000" UseYAxisHiliteline="false" YAxisHiliteValue="0" YAxisHiliteColor="#000000" YAxisOverrideDecimalPlaces="false" YAxisNumDecimalPlaces="0" />
+          <OAxis UseOpposedAxis="true" OAxisLabelFont="Microsoft Sans Serif" OAxisLabelSize="8" OAxisLabelColor="#000000" OAxisTitle="" OAxisTitleFont="Microsoft Sans Serif" OAxisTitleSize="10" OAxisTitleColor="#000000" OAxisShowGrid="true" OPrefix="" OPostfix="" OAxisOverrideOrigin="false" OAxisCustomOrigin="0" OAxisOverrideIncrement="false" OAxisIncrement="100" OAxisOverrideBaseline="false" OAxisBaseline="0" OAxisOverrideTopline="false" OAxisTopline="1000" UseOAxisHiliteline="false" OAxisHiliteValue="0" OAxisHiliteColor="#000000" OAxisOverrideDecimalPlaces="false" OAxisNumDecimalPlaces="0" />
+          <XAxis XAxisLabelFont="Microsoft Sans Serif" XAxisLabelSize="8" XAxisLabelColor="#000000" XAxisTitle="" XAxisTitleFont="Microsoft Sans Serif" XAxisTitleSize="10" XAxisTitleColor="#000000" XAxisShowGrid="true" />
+          <StylesSeries1 ShowDataPointText="false" DataPointFontFaceName="Microsoft Sans Serif" DataPointFontSize="8" DataPointTextColor="#000000" DataPointTextOffset="2" DataPointUsePrePostfix="false" DataPointOverrideDecimalPlaces="false" DataPointNumDecimalPlaces="0" SeriesColor="#b30023" SeriesPalette="#b30023,#00488c,#1e6c0b,#d84000,#f0b400,#332600,#5400a8,#434c43" SeriesBorderWidth="2" ShowSeriesDots="false" SeriesDotSize="6" PlotOnOpposedAxis="false" />
+          <StylesSeries2 ShowDataPointText="false" DataPointFontFaceName="Microsoft Sans Serif" DataPointFontSize="8" DataPointTextColor="#000000" DataPointTextOffset="2" DataPointUsePrePostfix="false" DataPointOverrideDecimalPlaces="false" DataPointNumDecimalPlaces="0" SeriesColor="#00488c" SeriesPalette="#b30023,#00488c,#1e6c0b,#d84000,#f0b400,#332600,#5400a8,#434c43" SeriesBorderWidth="2" ShowSeriesDots="false" SeriesDotSize="6" PlotOnOpposedAxis="true" />
+          <StylesSeries3 ShowDataPointText="false" DataPointFontFaceName="Microsoft Sans Serif" DataPointFontSize="8" DataPointTextColor="#000000" DataPointTextOffset="2" DataPointUsePrePostfix="false" DataPointOverrideDecimalPlaces="false" DataPointNumDecimalPlaces="0" SeriesColor="#1e6c0b" SeriesPalette="#b30023,#00488c,#1e6c0b,#d84000,#f0b400,#332600,#5400a8,#434c43" SeriesBorderWidth="2" ShowSeriesDots="true" SeriesDotSize="6" PlotOnOpposedAxis="false" />
+          <WatermarkStyles UseWatermark="None" WatermarkText="Property of Alteryx, Inc." WatermarkTextFont="Microsoft Sans Serif" WatermarkTextSize="14" WatermarkTextColor="#000000" WatermarkOpacity="60" WatermarkImage="" />
+          <AllowMultiple value="true" />
+          <CombinationChart value="false" />
+          <SeriesList numSeries="3">
+            <Series1>
+              <Y_ValueField yValueName="LineValue" yValueDesc="Line">PCP</Y_ValueField>
+            </Series1>
+            <Series2>
+              <Y_ValueField yValueName="LineValue" yValueDesc="Line">NVDI</Y_ValueField>
+            </Series2>
+            <Series3>
+              <Y_ValueField yValueName="LineValue" yValueDesc="Line">[None]</Y_ValueField>
+            </Series3>
+          </SeriesList>
+          <CurrentKnownFields>
+            <Field name="StateCode" />
+            <Field name="YearMonth" />
+            <Field name="PCP" />
+            <Field name="TAVG" />
+            <Field name="PDSI" />
+            <Field name="PHDI" />
+            <Field name="ZNDX" />
+            <Field name="PMDI" />
+            <Field name="CDD" />
+            <Field name="HDD" />
+            <Field name="SP01" />
+            <Field name="SP02" />
+            <Field name="SP03" />
+            <Field name="SP06" />
+            <Field name="SP09" />
+            <Field name="SP12" />
+            <Field name="SP24" />
+            <Field name="TMIN" />
+            <Field name="TMAX" />
+            <Field name="NVDI" />
+            <Field name="YEAR_" />
+            <Field name="MONTH_" />
+          </CurrentKnownFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxReportChart.dll" EngineDllEntryPoint="AlteryxReportChartPlugin" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="270" y="-6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RPLITT~1\AppData\Local\Temp\Engine_1048_1d3f4e483a6440ddb1c5a03ab1d462a7_\Engine_6808_517b7171dc5c4f82888b33b59fc7df2d_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="16" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="19" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="29" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Interactive" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Interactive" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Graph Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Graph Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Scater Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="18" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Correlation Matrix" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>VegPrecipExtraPlots</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
